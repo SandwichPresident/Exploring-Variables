@@ -5,6 +5,14 @@
         static void Main(string[] args)
         {
             //variables
+
+            string heroFirstName = "Johnathan";
+            string heroLastName = "Gargantuan";
+            string heroFullName;
+
+            heroFullName = heroFirstName + " " + heroLastName;
+
+            Console.WriteLine("Behold, the legendary hero, " + heroFullName);
         }
     }
 }
